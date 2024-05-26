@@ -1,0 +1,21 @@
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.logo {
+  width: 10rem;
+  height: 10rem;
+  background-image: url(../img/rocket.svg);
+  background-size: contain;
+}
+
+.title, .text, .price, .city {
+  color: rgb(94, 34, 34);
+}
+
+.contact-name, .contact-email, .contact-phone {
+  color: rgb(20, 20, 82);
+}
