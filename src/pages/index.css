@@ -2,7 +2,10 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 4rem;
+  margin-top: 2rem;
+  padding: 2rem;
+  background-color: rgb(78, 121, 106, 0.5); 
+  color: rgb(47, 53, 71);
 }
 
 .logo {
@@ -12,10 +15,36 @@ header {
   background-size: contain;
 }
 
-.title, .text, .price, .city {
-  color: rgb(94, 34, 34);
+.title, .text, .price, .city, .contact-name, .contact-email, .contact-phone {
+  color: rgb(47, 53, 71);
 }
 
-.contact-name, .contact-email, .contact-phone {
-  color: rgb(20, 20, 82);
+section {
+  background-color: rgba(250, 250, 236, 0.5);
+  padding: 30px 30px 10px 30px;
+}
+
+a {
+  padding: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-decoration: none ;
+  color: rgb(47, 53, 71);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: rgb(106, 109, 146);
+}
+
+.bold {
+  font-weight: bold;
+}
+
+img {
+  width: 100%; 
+  height: auto;
 }

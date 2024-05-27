@@ -5,10 +5,10 @@ import { Header } from '../components/Header';
 import { Estate } from '../components/Estate'
 
 
-const house = window.location.pathname
+const cesta = window.location.pathname
+const house = cesta.slice(0, cesta.indexOf('.'))
 console.log(house)
 
-//const response = await fetch('https://apps.kodim.cz/daweb/trening-api/apis/realitka/'+{house})
 const response = await fetch (`https://apps.kodim.cz/daweb/trening-api/apis/realitka${house}`);
 const data = await response.json()
 console.log(response)
